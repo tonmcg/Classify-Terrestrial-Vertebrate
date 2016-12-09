@@ -1,11 +1,41 @@
-@import url('http://fonts.googleapis.com/css?family=Crimson+Text');
-@import url('http://fonts.googleapis.com/css?family=Kameron');
-@import url('http://fonts.googleapis.com/css?family=Lato:200,300,400');
-@import url('http://fonts.googleapis.com/css?family=Source+Code+Pro');
+@font-face {
+    font-family: ProximaNovaRegular;
+    src: url(fonts/ProximaNova-Reg.otf);
+    font-weight: 400;
+    font-style: normal    
+}
+
+@font-face {
+    font-family: ProximaNovaLight;
+    src: url(fonts/ProximaNova-Light.otf);
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url(fonts/ProximaNova-Bold.otf);
+    font-weight: 400;
+    font-style: normal    
+}
+
+@font-face {
+    font-family: ProximaNovaExCondTh;
+    src: url(fonts/proximanovaexcn-thin.otf);
+    font-weight: 400;
+    font-style: normal    
+}
+
+@font-face {
+    font-family: ProximaNovaExCondBold;
+    src: url(fonts/proximanovaexcn-bold.otf);
+    font-weight: 400;
+    font-style: normal    
+}
 
 /* Change code font */
 .CodeMirror pre {
-    font-family: 'Source Code Pro', Consolas, monocco, monospace;
+    font-family: ProximaNovaRegular;
 }
 
 div.input_area {  
@@ -18,7 +48,7 @@ div.text_cell {
 }
 
 div.text_cell_render {  
-    font-family: "Crimson Text";
+    font-family: ProximaNovaExCondTh;
     font-size: 12pt;
     line-height: 145%; /* added for some line spacing of text. */
 }
@@ -29,7 +59,7 @@ div.text_cell_render h3,
 div.text_cell_render h4,  
 div.text_cell_render h5,  
 div.text_cell_render h6 {  
-    font-family: 'Kameron';
+    font-family: ProximaNovaBold;
     font-weight: 300;
 }
 
@@ -80,7 +110,7 @@ div.output_scroll {
     box-shadow: none;
     border-radius: 0;
     border: none;
-    font-family: lato;
+    font-family: ProximaNovaLight;
     font-weight: 400;
 }
 
@@ -113,7 +143,7 @@ div#notebook {
 }
 
 #header {
-    font-family: lato;
+    font-family: ProximaNovaLight;
 }
 
 #notebook_name {
