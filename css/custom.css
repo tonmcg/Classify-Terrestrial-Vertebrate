@@ -1,3 +1,5 @@
+<style>
+
 @font-face {
     font-family: ProximaNovaRegular;
     src: url(css/fonts/ProximaNova-Reg.otf);
@@ -48,13 +50,18 @@ div.input_area {
 }
 
 div.text_cell {  
-    max-width: 105ex; /* instead of 100%, */
+    max-width: 100%; /* instead of 100%, */
 }
 
 div.text_cell_render {  
-    font-family: ProximaNovaExCondTh;
-    font-size: 12pt;
+    font-family: ProximaNovaRegular;
+    font-size: 14pt;
     line-height: 145%; /* added for some line spacing of text. */
+}
+
+div.input_prompt,
+div.prompt {
+    display: none;
 }
 
 div.text_cell_render h1,  
@@ -68,20 +75,21 @@ div.text_cell_render h6 {
 }
 
 div.text_cell_render h1 {  
-    font-size: 24pt;
+    font-size: 36pt;
 }
 
 div.text_cell_render h2 {  
-    font-size: 18pt;
+    font-size: 24pt;
 }
 
 div.text_cell_render h3 {  
-    font-size: 14pt;
+    font-size: 18pt;
 }
 
 .rendered_html pre,
 .rendered_html code {
     font-size: medium;
+    width: 100%;
 }
 
 .rendered_html ol {
@@ -106,6 +114,14 @@ div.output_scroll {
     -webkit-box-shadow: inset 0 2px 8px rgba(0,0,0,0.1);
     box-shadow: inset 0 2px 8px rgba(0,0,0,0.1);
     border-radious: 2px;
+}
+
+div.output_subarea {
+    max-width: 100%;
+}
+
+div.output_area pre {  
+    font-family: ProximaNovaRegular;
 }
 
 #menubar .navbar-inner {
@@ -191,3 +207,4 @@ table>tbody>tr>td, table>tbody>tr>th, table>tfoot>tr>td, table>tfoot>tr>th, tabl
     vertical-align: top;
     border-top: 1px solid #ddd;
 }
+</style>
