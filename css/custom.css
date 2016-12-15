@@ -61,7 +61,7 @@ div.text_cell_render {
 
 div.input_prompt,
 div.prompt {
-    display: none;
+    /*display: none;*/
 }
 
 div.text_cell_render h1,  
