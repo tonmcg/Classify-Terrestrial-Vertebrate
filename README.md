@@ -8,6 +8,6 @@ Files in this repo:
 - [Brief overview of the classification task](https://github.com/tonmcg/Classify-Terrestrial-Vertebrate/blob/master/Classifying%20Wildlife%20Camera%20Trap%20Images.pdf)
 - [Setup, methods, and findings report](https://github.com/tonmcg/Classify-Terrestrial-Vertebrate/blob/master/Classifying%20Wildlife%20Camera%20Trap%20Images%20for%20Conservation%20International%E2%80%99s%20Tropical%20Ecology%20Assessment%20and%20Monitoring%20Network.docx)
 - [Jupyter iPython Notebook](https://github.com/tonmcg/Classify-Terrestrial-Vertebrate/blob/master/Classifying%20Wildlife%20Camera%20Trap%20Images%20for%20Conservation%20International%E2%80%99s%20Tropical%20Ecology%20Assessment%20and%20Monitoring%20Network.ipynb)
-- [Viewable version of the iPython notebook](Classifying%20Wildlife%20Camera%20Trap%20Images.ipynb)
+- [Viewable version of the iPython notebook](nbviewer.jupyter.org/github/tonmcg/Classify-Terrestrial-Vertebrate/blob/master/Classifying%20Wildlife%20Camera%20Trap%20Images.ipynb)
 - [Pre-cropped image files](https://github.com/tonmcg/Classify-Terrestrial-Vertebrate/tree/master/Loxodonta)
 - [CalTech 101 Objects images used in training](https://github.com/tonmcg/Classify-Terrestrial-Vertebrate/tree/master/101_ObjectCategories)
