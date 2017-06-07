@@ -6,7 +6,7 @@ This repo contains most of the files needed to replicate a method to classify th
 
 Files in this repo:
 - [Brief overview of the classification task](https://github.com/tonmcg/Classify-Terrestrial-Vertebrate/blob/master/Classifying%20Wildlife%20Camera%20Trap%20Images.pdf)
-- [Setup, methods, and findings report](https://drive.google.com/open?id=0B2dDDdqAWDsucFZLYzNHcTlXVTg)
+- [Setup, methods, and findings report](https://docs.google.com/document/d/1evtda_AZTxUkTjJItt7sfubWbpD199MSunjPySHX3h8)
 - [Jupyter iPython Notebook](https://github.com/tonmcg/Classify-Terrestrial-Vertebrate/blob/master/Classifying%20Wildlife%20Camera%20Trap%20Images.ipynb)
 - [Viewable version of the iPython notebook](https://nbviewer.jupyter.org/github/tonmcg/Classify-Terrestrial-Vertebrate/blob/master/Classifying%20Wildlife%20Camera%20Trap%20Images.ipynb)
 - [Pre-cropped image files](https://github.com/tonmcg/Classify-Terrestrial-Vertebrate/tree/master/Loxodonta)
